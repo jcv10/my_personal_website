@@ -1,0 +1,39 @@
+/******************************** reset default styles **********************************/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/******************************** header styles **********************************/
+.header {
+    text-align: center;
+}
+
+.header__subtitle {
+    display: block;
+    letter-spacing: .2em;
+}
+
+nav {
+    width: 60%;
+    margin: 20px auto 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+}
+
+nav ul li {
+    background-color: red;
+}
